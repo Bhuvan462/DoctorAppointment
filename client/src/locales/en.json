@@ -1,0 +1,27 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "findDoctors": "Find Doctors",
+    "appointments": "Appointments",
+    "aiTriage": "AI Triage",
+    "prescriptions": "Prescriptions",
+    "history": "History",
+    "manageAvailability": "Manage Availability",
+    "reports": "Reports",
+    "users": "Users",
+    "doctors": "Doctors"
+  },
+  "triage": {
+    "title": "AI Triage Assistant",
+    "subtitle": "Describe your symptoms and our AI will recommend the right specialist.",
+    "placeholder": "e.g., I have a severe headache and fever since yesterday...",
+    "analyzeBtn": "Analyze Symptoms",
+    "analyzing": "Analyzing...",
+    "disclaimer": "Disclaimer: This AI is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment.",
+    "department": "Recommended Department",
+    "urgency": "Urgency Level",
+    "advice": "Medical Advice",
+    "bookBtn": "Book Appointment Now",
+    "fallbackMsg": "Using standard rules (AI unavailable)"
+  }
+}
