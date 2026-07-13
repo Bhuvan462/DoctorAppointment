@@ -37,8 +37,8 @@ app.use(
         process.env.CLIENT_URL || 'http://localhost:5173',
         'http://localhost:3000',
       ];
-      // Allow requests with no origin (e.g., mobile apps, Postman)
-      if (!origin || allowedOrigins.includes(origin)) {
+      // Allow requests with no origin, allowed origins, or any vercel.app domain
+      if (!origin || allowedOrigins.includes(origin) || origin.endsWith('.vercel.app')) {
         callback(null, true);
       } else {
         callback(new Error(`CORS policy does not allow access from origin: ${origin}`));
