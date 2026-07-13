@@ -1,0 +1,8 @@
+{
+  "name": "doctor-appointment-root",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build && cd .. && node -e \"const fs = require('fs'); fs.mkdirSync('public', {recursive: true}); fs.cpSync('client/dist', 'public', {recursive: true});\""
+  }
+}

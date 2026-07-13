@@ -1,0 +1,1 @@
+import{a as t}from"./index-7rdTY9PN.js";const o=async()=>(await t.get("/health")).data,r=async a=>(await t.put("/health",a)).data,p=async a=>(await t.get(`/health/patient/${a}`)).data,c=async(a,e)=>(await t.post(`/health/patient/${a}/data`,e)).data;export{p as a,c as b,o as g,r as u};

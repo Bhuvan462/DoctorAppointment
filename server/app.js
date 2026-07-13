@@ -20,6 +20,7 @@ const adminRoutes = require('./routes/admin.routes');
 const aiRoutes = require('./routes/ai.routes');
 const paymentRoutes = require('./routes/payment.routes');
 const healthRoutes = require('./routes/health.routes');
+const cronRoutes = require('./routes/cron.routes');
 
 const app = express();
 
@@ -117,6 +118,7 @@ app.use('/api/v1/admin', adminRoutes);
 app.use('/api/v1/ai', aiRoutes);
 app.use('/api/v1/payments', paymentRoutes);
 app.use('/api/v1/health', healthRoutes);
+app.use('/api/v1/cron', cronRoutes);
 
 // ─── Error Handling ───────────────────────────────────────────────────────────
 
